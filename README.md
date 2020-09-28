@@ -2,10 +2,16 @@
 
 A sapper template combined with firestore
 
-- [x] Firebase hosting with SSR function
-- [x] Rollup
+- [x] Firebase hosting with SSR
+- [x] Avoid secrets in repository
 - [ ] Firestore
-- [ ] Webpack
+  - [x] Server side access
+  - [x] Client side access
+  - [x] Emulators for dev
+  - [ ] Security rules
+  - [ ] Firestore auth
+  - [ ] Indexes
+- [ ] Testing
 
 ## Getting started
 
@@ -44,3 +50,7 @@ Deploy to Firebase hosting.
 ```bash
 firebase deploy
 ```
+
+## References
+
+- Svelte store wrapper for firestore taken from [https://github.com/Evertt/flipside](https://github.com/Evertt/flipside)
